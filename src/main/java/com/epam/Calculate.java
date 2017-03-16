@@ -13,7 +13,7 @@ public class Calculate {
 
     public double squareEquilateralTriangle (int a)
     {
-        return Math.pow(3, a);
+        return Math.pow(a, 3);
     }
 
 }
