@@ -13,15 +13,15 @@ public class ListenerClass implements ITestListener {
 
 
     public void onTestStart(ITestResult result) {
-
+        System.out.println("Test  /"+ result.getMethod().getMethodName()+"/ is start. " );
     }
 
     public void onTestSuccess(ITestResult result) {
-        System.out.println("Test is success");
+        System.out.println("Test  /"+ result.getMethod().getMethodName()+"/ is success. " );
     }
 
     public void onTestFailure(ITestResult result) {
-        System.out.println("Test is fail");
+        System.out.println("Test  /"+ result.getMethod().getMethodName()+"/ is fail. " );
     }
 
     public void onTestSkipped(ITestResult result) {
@@ -31,11 +31,10 @@ public class ListenerClass implements ITestListener {
     }
 
     public void onStart(ITestContext context) {
-        System.out.println("Test is start");
     }
 
     public void onFinish(ITestContext context) {
-        System.out.println("Test is finish");
+        System.out.println("Test finished at " + context.getEndDate());
     }
 
 }
