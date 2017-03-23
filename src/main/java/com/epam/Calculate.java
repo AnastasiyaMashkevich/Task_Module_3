@@ -3,7 +3,7 @@ package com.epam;
 
 public class Calculate {
 //new comment
-
+//test branch
 //test comment
     public boolean isEquilateralTriangle (int a, int b, int c)
     {
