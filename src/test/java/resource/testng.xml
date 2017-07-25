@@ -7,8 +7,10 @@
     <test name="squareEquilateralTriangleTestWithParam">
         <parameter name="number" value="3"/>
         <classes>
-            <class name= "com.epam.CalculateWithParametersTest">
-            </class>
+            <class name= "com.epam.CalculateBaseMethods"></class>
+            <class name= "com.epam.CalculateDataProviderTest"></class>
+            <class name= "com.epam.CalculateDependsOnMethodTest"></class>
+            <class name= "com.epam.CalculateWithParametersTest"></class>
         </classes>
     </test>
 </suite>
