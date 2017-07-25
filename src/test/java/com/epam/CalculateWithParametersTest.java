@@ -15,6 +15,6 @@ public class CalculateWithParametersTest extends CalculateBaseMethods  {
     @Test
     @Parameters(value = {"number"})
     public void squareEquilateralTriangleTestWithParam (@Optional("2") int number) {
-        Assert.assertEquals(calculate.squareEquilateralTriangle(number), 8);
+        Assert.assertEquals(calculate.squareEquilateralTriangle(number), 8.0);
     }
 }
